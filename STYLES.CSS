@@ -1,7 +1,7 @@
 body {
   margin:0px;
   padding:0px;
-  background-image: url("../img/back.jpg");
+  background-image: url("back.jpg");
   background-size:100% 740px;
   background-attachment:fixed;
   background-repeat:no-repeat;
@@ -142,7 +142,7 @@ body {
 }
 
 .Servicios #backser {
-  background-image: url("../img/back2.jpg");
+  background-image: url("back2.jpg");
   background-size:100% 720px;
   background-repeat:no-repeat;
   height:720px;
@@ -164,7 +164,7 @@ body {
   background-color:Grey;
 }
 .Informacion #backinfo {
-  background-image: url("../img/back1.jpg");
+  background-image: url("back1.jpg");
   background-size:100% 720px;
   background-repeat:no-repeat;
   height:720px;
@@ -196,7 +196,7 @@ body {
 }
 
 .productos {
-  background-image: url("../img/back3.jpg");
+  background-image: url("back3.jpg");
   background-size:100% 720px;
   background-repeat:no-repeat;
   height:720px;
