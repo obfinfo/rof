@@ -1,0 +1,360 @@
+body {
+  margin:0px;
+  padding:0px;
+  background-image: url("../img/CC1.jpg");
+  background-size:100% 740px;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+}
+
+.menu {
+  width:100%;
+  height:100px;
+  padding:0px;
+  margin:0px;
+}
+
+.ban {
+  padding:0px;
+  background-color:rgba(0, 0, 0, .4);
+  height:80px;
+  width:100%;
+  position:fixed;
+  top:0px;
+  z-index:5;
+}
+
+.ban ul li a {
+  color:white;
+  text-decoration:none;
+}
+
+.ban ul li {
+  text-decoration:none;
+  float:left;
+  color:White;
+  padding:23px;
+  list-style:none;
+
+}
+
+.ban ul li:hover a {
+  color:#0093ff;
+}
+
+
+.ng {
+  background:rgba(0, 0, 0, .5);
+  position:absolute;
+  top:0px;
+  height:5800px;
+  width:100%;
+}
+
+#formulario {
+  height:480px;
+  width:40%;
+  background:White;
+  position:fixed;
+  top:100px;
+  left:35%;
+  visibility:hidden;
+}
+
+#formulario .der {
+  width:30%;
+  height:100%;
+  background:#0093ff;
+}
+
+#formulario .der img {
+  width:70%;
+  display:box;
+  filter:invert(100%);
+  margin-top:50%;
+  margin-left:15%;
+}
+
+#formulario .iz {
+  position:relative;
+  left:32%;
+  top:-100%;
+
+}
+
+.titulo {
+  color: $0093ff;
+  width: 90%;
+  font-size: 3em;
+}
+
+.con #uno {
+  background-color:white;
+  height:720px;
+  brder:1px solid red;
+  padding:20px;
+}
+
+.con {
+  background-color:white;
+  height:5800px;
+}
+.con #uno ul li {
+
+
+  margin: 40px;
+
+
+}
+
+.con #uno ul li:hover a {
+background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+
+}
+
+.con #uno ul li ul{
+  list-style: none;
+  display: none;
+}
+
+.con #uno ul li a {
+  margin: 60px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.con #uno ul li a {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+
+}
+
+.con #uno ul li #subcar {
+display: none;
+}
+
+.con #uno ul li #subfu {
+  display: none;
+}
+.con #uno ul li #ases {
+display: none;
+}
+
+#subhdd {
+  width: 100%;
+  height: 500px;
+
+  float: left;
+  padding: 0px;
+position: relative;
+
+}
+#subhdd .uno {
+  width: 30%;
+  height: 90%;
+
+  display: inline-block;
+
+}
+#subhdd .dos {
+  width: 30%;
+  height: 90%;
+
+  display: inline-block;
+
+}
+#subhdd .tres {
+  width: 30%;
+  height: 90%;
+
+display: inline-block;
+}
+
+
+#subddr {
+  width: 100%;
+  height: 600px;
+
+  float: left;
+  padding: 0px;
+position: relative;
+display: inline-block;
+}
+
+#subddr .uno {
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+
+}
+#subddr .dos {
+  width: 30%;
+  height: 90%;
+
+  display: inline-block;
+
+}
+#subddr .tres {
+  width: 30%;
+  height: 90%;
+
+display: inline-block;
+}
+
+#subusb {
+  width: 100%;
+  height: 650px;
+  float: left;
+  padding: 0px;
+position: relative;
+display: inline-block;
+
+}
+
+#subusb .uno {
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+
+}
+#subusb .dos {
+  width: 30%;
+  height: 90%;
+
+
+  display: inline-block;
+
+}
+#subusb .tres {
+  width: 30%;
+  height: 90%;
+
+display: inline-block;
+}
+#subpor {
+  width: 100%;
+  height: 600px;
+margin-top: 50px;
+  float: left;
+  padding: 0px;
+position: relative;
+display: inline-block;
+}
+
+#subpor .uno {
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+
+}
+#subpor .dos {
+  width: 30%;
+  height: 90%;
+  position: relative;
+
+  display: inline-block;
+
+}
+#subpor .tres {
+  width: 30%;
+  height: 90%;
+
+display: inline-block;
+}
+#subes {
+  width: 100%;
+  height: 600px;
+margin-top: 50px;
+  float: left;
+  padding: 0px;
+position: relative;
+display: inline-block;
+
+}
+
+#subes .uno {
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+
+}
+#subes .dos {
+  width: 30%;
+  height: 90%;
+  position: relative;
+
+
+  display: inline-block;
+
+}
+#subes .tres {
+  width: 30%;
+  height: 90%;
+
+display: inline-block;
+}
+#subcar #bug1 {
+  width: 100%;
+  height: 600px;
+margin-top: 50px;
+  float: left;
+  padding: 0px;
+position: relative;
+display: inline-block;
+
+margin-bottom: 100px;
+}
+
+#subcar .uno {
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+
+}
+#subcar .dos {
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+
+}
+#subcar .tres {
+  width: 30%;
+  height: 90%;
+display: inline-block;
+}
+#subfu {
+  margin-top: 100px;
+
+  width: 100%;
+  height: 600px;
+margin-top: 50px;
+  float: left;
+  padding: 0px;
+display: inline-block;
+}
+
+#subfu .uno {
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+
+}
+#subfu .dos {
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+
+}
+#subfu .tres {
+  width: 30%;
+  height: 90%;
+display: inline-block;
+}
+
+h1 {
+  margin: 50px;
+}
+h3 {
+  margin: 50px;
+}
